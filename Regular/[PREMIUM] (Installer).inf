@@ -1,0 +1,57 @@
+;Crystal Clear v4.1 (Premium) by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[PREMIUM] Normal Select v4.1.ani"
+"[PREMIUM] Help Select v4.1.ani"
+"[PREMIUM] Working In Background v4.1.ani"
+"[PREMIUM] Busy v4.1.ani"
+"[PREMIUM] Precision Select v4.1.ani"
+"[PREMIUM] Text Select v4.1.ani"
+"[PREMIUM] Handwriting v4.1.ani"
+"[PREMIUM] Unavailable v4.1.ani"
+"[PREMIUM] Vertical Resize v4.1.ani"
+"[PREMIUM] Horizontal Resize v4.1.ani"
+"[PREMIUM] Diagonal Resize 1 v4.1.ani"
+"[PREMIUM] Diagonal Resize 2 v4.1.ani"
+"[PREMIUM] Move v4.1.ani"
+"[PREMIUM] Alternate Select v4.1.ani"
+"[PREMIUM] Link Select v4.1.ani"
+"[PREMIUM] Location Select v4.1.ani"
+"[PREMIUM] Person Select v4.1.ani"
+
+[Strings]
+CUR_DIR       	= "Cursors\Crystal Clear v4.1 - Original [PREMIUM]"
+SCHEME_NAME     	= "Crystal Clear v4.1 - Original [PREMIUM]"
+pointer		= "[PREMIUM] Normal Select v4.1.ani"
+help		= "[PREMIUM] Help Select v4.1.ani"
+work		= "[PREMIUM] Working In Background v4.1.ani"
+busy		= "[PREMIUM] Busy v4.1.ani"
+cross		= "[PREMIUM] Precision Select v4.1.ani"
+text		= "[PREMIUM] Text Select v4.1.ani"
+hand		= "[PREMIUM] Handwriting v4.1.ani"
+unavailiable	= "[PREMIUM] Unavailable v4.1.ani"
+vert		= "[PREMIUM] Vertical Resize v4.1.ani"
+horz		= "[PREMIUM] Horizontal Resize v4.1.ani"
+dgn1		= "[PREMIUM] Diagonal Resize 1 v4.1.ani"
+dgn2		= "[PREMIUM] Diagonal Resize 2 v4.1.ani"
+move		= "[PREMIUM] Move v4.1.ani"
+alternate		= "[PREMIUM] Alternate Select v4.1.ani"
+link		= "[PREMIUM] Link Select v4.1.ani"
+pin		= "[PREMIUM] Location Select v4.1.ani"
+person		= "[PREMIUM] Person Select v4.1.ani"
